@@ -15,7 +15,7 @@ import springsecuritywithmvc.models.Person;
 @Configuration
 @EnableWebSecurity
 public class WebAppSecurity  {
-
+//{noop} encode
     @Bean
     public InMemoryUserDetailsManager userDetailsService(PasswordEncoder passwordEncoder) {
         UserDetails user = User.builder()
